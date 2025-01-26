@@ -7,7 +7,7 @@
             "type": "process",
             "args": [
                 "build",
-                "${workspaceFolder}/ConsoleApp/ConsoleApp.csproj",
+                "${workspaceFolder}/NetAuthExample.sln",
                 "/property:GenerateFullPaths=true",
                 "/consoleloggerparameters:NoSummary;ForceNoAlign"
             ],
@@ -19,7 +19,7 @@
             "type": "process",
             "args": [
                 "publish",
-                "${workspaceFolder}/ConsoleApp/ConsoleApp.csproj",
+                "${workspaceFolder}/NetAuthExample.sln",
                 "/property:GenerateFullPaths=true",
                 "/consoleloggerparameters:NoSummary;ForceNoAlign"
             ],
@@ -33,7 +33,7 @@
                 "watch",
                 "run",
                 "--project",
-                "${workspaceFolder}/ConsoleApp/ConsoleApp.csproj"
+                "${workspaceFolder}/NetAuthExample.sln"
             ],
             "problemMatcher": "$msCompile"
         }
