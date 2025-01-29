@@ -11,6 +11,7 @@ namespace WebApi
         public bool Authorize(DashboardContext dashboardContext)
         {
             var httpContext = dashboardContext.GetHttpContext();
+            Console.WriteLine($"HangfireAuthorizationFilter IsAuth={httpContext.User?.Identity?.IsAuthenticated} User={httpContext.User?.Identity?.Name} "); 
             return true;
         }
     }
